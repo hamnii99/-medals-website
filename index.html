@@ -2,91 +2,82 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <title>ميداليات فاخرة</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ميداليات أنيقة</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>ميداليات أنيقة</h1>
-        <nav>
-            <ul>
-                <li><a href="#categories">الفئات</a></li>
-                <li><a href="#products">المنتجات</a></li>
-                <li><a href="#order">الطلب</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="categories">
-        <h2>الفئات</h2>
-        <div class="categories">
-            <div class="category">رياضية</div>
-            <div class="category">تخرج</div>
-            <div class="category">أطفال</div>
-            <div class="category">مخصصة</div>
-        </div>
-    </section>
+<header class="hero">
+    <div class="hero-text">
+        <h1>اختر ميداليتك المفضلة</h1>
+        <p>مع خدمة التوصيل السريع، الآن وادفع بأمان!</p>
+        <a href="#products" class="btn-main">تسوق الآن</a>
+    </div>
+    <div class="hero-img">
+        <img src="https://i.imgur.com/FMdCyYF.png" alt="ميداليات">
+    </div>
+</header>
 
-    <section id="products">
-        <h2>المنتجات</h2>
-        <div class="products">
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="ميدالية رياضية">
-                <p>ميدالية رياضية ذهبية</p>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="ميدالية تخرج">
-                <p>ميدالية تخرج مميزة</p>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="ميدالية أطفال">
-                <p>ميدالية أطفال ملونة</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="order">
-        <h2>نموذج الطلب</h2>
-        <form>
-            <label>الاسم الكامل:<br><input type="text" name="name" required></label><br>
-            <label>رقم الجوال:<br><input type="tel" name="phone" required></label><br>
-            <label>العنوان:<br><textarea name="address" required></textarea></label><br>
-            <label>طريقة الدفع:<br>
-                <select name="payment">
-                    <option value="cod">الدفع عند الاستلام</option>
-                    <option value="card">بطاقة ائتمان</option>
-                </select>
-            </label><br>
-            <button type="submit">إرسال الطلب</button>
-        </form>
-    </section>
-<section class="order-form">
-    <h2>طلب سريع</h2>
-    <form>
-        <label>الاسم الكامل:
-            <input type="text" required>
-        </label>
-        <label>رقم الجوال:
-            <input type="tel" required>
-        </label>
-        <label>العنوان:
-            <textarea required></textarea>
-        </label>
-        <label>طريقة الدفع:
-            <select>
-                <option>الدفع عند الاستلام</option>
-                <option>تحويل بنكي</option>
-            </select>
-        </label>
-        <button type="submit">إرسال الطلب</button>
-    </form>
+<section class="categories">
+    <div class="category">
+        <img src="https://i.imgur.com/j4U6vYp.png" alt="بنات">
+        <h3>ميداليات بنات</h3>
+        <button>السمو للأناقة</button>
+    </div>
+    <div class="category">
+        <img src="https://i.imgur.com/t3gX8YO.png" alt="أطفال">
+        <h3>ميداليات أطفال</h3>
+        <button>مدامير لُطَف</button>
+    </div>
+    <div class="category">
+        <img src="https://i.imgur.com/NJGCt0B.png" alt="أنمي">
+        <h3>ميداليات أنمي</h3>
+        <button>ميداليات أمور</button>
+    </div>
+    <div class="category">
+        <img src="https://i.imgur.com/r8AhTgf.png" alt="متنوعة">
+        <h3>ميداليات متنوعة</h3>
+        <button>ميداليات منوعة</button>
+    </div>
 </section>
-    <footer>
-       
-        <p>© 2025 جميع الحقوق محفوظة</p>
-    </footer>
 
-    
+<section class="why-us">
+    <h2>لماذا نحن؟</h2>
+    <div class="features">
+        <div><img src="https://i.imgur.com/LsX9uOw.png"><p>توصيل لجميع المناطق</p></div>
+        <div><img src="https://i.imgur.com/9Ro3HUb.png"><p>دفع الكتروني آمن</p></div>
+        <div><img src="https://i.imgur.com/jB5vV9g.png"><p>ميداليات حصرية</p></div>
+    </div>
+</section>
+
+<section id="products" class="products">
+    <h2>منتجات مختارة</h2>
+    <div class="product-list">
+        <div class="product">
+            <img src="https://i.imgur.com/n4NZmY6.png" alt="قلب ذهبي">
+            <p>ميدالية قلب</p>
+            <span>٤٥ رس</span>
+            <button>أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/Uy74AKD.png" alt="دولفين">
+            <p>ميدالية دولفين</p>
+            <span>٤٥ رس</span>
+            <button>أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/7xtGEOm.png" alt="بنت">
+            <p>ميدالية بنوتة</p>
+            <span>٤٥ رس</span>
+            <button>أضف إلى السلة</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 جميع الحقوق محفوظة لمتجر الميداليات</p>
+</footer>
+
 </body>
 </html>

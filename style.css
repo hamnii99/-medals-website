@@ -1,163 +1,155 @@
 body {
     font-family: 'Tahoma', sans-serif;
-    background-color: #fffafa;
-    color: #444;
     margin: 0;
     padding: 0;
+    background-color: #fffafc;
     direction: rtl;
 }
 
-header {
-    background: #ffc0cb;
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #fff0f5;
+    padding: 40px 20px;
+    justify-content: space-around;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+    color: #d63384;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.btn-main {
+    background: #f9c8d9;
     color: #fff;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 12px;
-}
-
-nav a {
-    color: white;
+    padding: 12px 20px;
     text-decoration: none;
+    border-radius: 8px;
     font-weight: bold;
 }
 
-h2 {
-    text-align: center;
-    color: #d6336c;
-    margin-top: 40px;
+.hero-img img {
+    max-width: 220px;
 }
 
-.categories, .products {
+.categories {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 30px auto;
-    max-width: 1000px;
-}
-
-.category, .product {
     background: #fff;
-    border: 2px solid #ffe4ec;
-    margin: 10px;
-    padding: 15px;
+    padding: 40px 10px;
+}
+
+.category {
     text-align: center;
-    width: 220px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
+    margin: 10px;
+    width: 160px;
 }
 
-.category:hover, .product:hover {
-    transform: translateY(-5px);
-}
-
-.product img {
+.category img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
-form {
-    max-width: 500px;
-    margin: 40px auto;
-    background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+.category h3 {
+    color: #444;
+    margin: 10px 0;
 }
 
-form label {
-    display: block;
-    margin-bottom: 15px;
-    font-weight: bold;
+.category button {
+    background: #f3c279;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
 }
 
-form input, form textarea, form select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    font-size: 15px;
+.why-us {
+    text-align: center;
+    padding: 50px 10px;
     background: #fff8fa;
 }
 
-button {
-    background: #d6336c;
-    color: white;
-    border: none;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    transition: background 0.3s ease;
-}
-
-button:hover {
-    background: #c41f5d;
-}
-
-footer {
-    background: #ffc0cb;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}.order-form {
-    background: #fffafc;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.order-form h2 {
+.why-us h2 {
     color: #cc2b5e;
     margin-bottom: 20px;
 }
 
-.order-form form {
-    max-width: 400px;
-    margin: auto;
-    text-align: right;
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-.order-form label {
-    display: block;
-    margin-bottom: 15px;
+.features div {
+    width: 100px;
+}
+
+.features img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.products {
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 160px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.product p {
+    margin: 10px 0 5px;
     font-weight: bold;
 }
 
-.order-form input,
-.order-form textarea,
-.order-form select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    margin-top: 5px;
-    background: #fff8fa;
+.product span {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-.order-form button {
-    background: #d6a85b;
-    color: white;
+.product button {
+    background: #e1b261;
     border: none;
-    padding: 12px;
-    margin-top: 10px;
+    padding: 8px;
+    color: white;
     border-radius: 6px;
-    font-size: 16px;
     cursor: pointer;
-    width: 100%;
+}
+
+footer {
+    background: #f8d1e3;
+    text-align: center;
+    padding: 20px;
+    color: #6a1a3f;
 }
