@@ -116,4 +116,48 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}.order-form {
+    background: #fffafc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.order-form h2 {
+    color: #cc2b5e;
+    margin-bottom: 20px;
+}
+
+.order-form form {
+    max-width: 400px;
+    margin: auto;
+    text-align: right;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    background: #fff8fa;
+}
+
+.order-form button {
+    background: #d6a85b;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
 }
